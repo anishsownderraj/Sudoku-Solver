@@ -1,4 +1,6 @@
 # Sudoku Board to be solved
+import platform
+import sys
 board = [[0, 0, 0, 0, 4, 7, 0, 1, 6],
          [5, 0, 1, 0, 0, 0, 7, 0, 0],
          [0, 6, 3, 0, 2, 0, 8, 0, 0],
@@ -130,5 +132,14 @@ def solution_board(row, column):
 # Calls the function to solve the Sudoku Board
 solution_board(0, 0)
 # Prints out the board
-for index in range(0, 9):
-    print(board[index])
+for row in range(0, 9):
+    for column in range(0, 9):
+        if (column + 1) % 3 == 0:
+            if column == 8:
+                print(board[row][column])
+                if (row + 1) % 3 == 0:
+                    print("---------------------")
+                break
+            print(board[row][column], end=' | ')
+        else:
+            print(board[row][column], end=' ')
