@@ -13,11 +13,6 @@ $ git clone https://github.com/anishsownderraj/Sudoku-Solver
 ```
 2. Set up an virtual environment(found below)
 
-3. Install the requirements.txt file(found below)
-
-
-
-
 ## Create a new virtual environment
 The following command creates a new virtual environment named `venv` in the current directory, usually this will be your project's directory.
 ```sh
@@ -41,12 +36,6 @@ $ (venv) echo 'Hello World!'
 The following command deactivates the current virtual environment, any dependency installed after this command will be installed globally.
 ```sh
 $ (venv) deactivate
-```
-
-## Requirements.txt
-To install dependencies in the current environment from a `requirements.txt` file the command below can be used.
-```sh
-$ (venv) pip install -r requirements.txt
 ```
 
 ## Tests
