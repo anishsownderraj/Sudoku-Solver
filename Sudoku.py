@@ -134,12 +134,13 @@ solution_board(0, 0)
 # Prints out the board
 print("\n")
 print("Solution to Sample Board:")
+print("\n")
 for row in range(0, 9):
     for column in range(0, 9):
         if (column + 1) % 3 == 0:
             if column == 8:
                 print(board[row][column])
-                if (row + 1) % 3 == 0:
+                if (row + 1) % 3 == 0 and row != 8:
                     print("---------------------")
                 break
             print(board[row][column], end=' | ')
