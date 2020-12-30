@@ -4,38 +4,15 @@ This is a sudoku solver using the Backtracking algorithm.
 ## Getting Started
 ## Requirements
 * `python` 3.x
-* `pip`
-* [`virtualenv`](https://virtualenv.pypa.io/en/latest/)
+
 ## Instructions
 1. Clone the Repository using the URL
 ```sh
 $ git clone https://github.com/anishsownderraj/Sudoku-Solver
 ```
-2. Set up an virtual environment(found below)
-
-## Create a new virtual environment
-The following command creates a new virtual environment named `venv` in the current directory, usually this will be your project's directory.
+## Compiling and Executing Program
 ```sh
-$ virtualenv venv
-```
-
-## Activate virtual environment
-The following commands [activate](https://virtualenv.pypa.io/en/latest/userguide/#activate-script) an existing virtual environment on Windows and Unix systems. The command assume that the virtual environment is named `venv` and that its location is in a subdirectory `path/to/` of the current directory. 
-```sh
-# Windows (CMD.exe)
-$ path\to\venv\Scripts\activate.bat
-# Unix
-$ source path/to/venv//bin/activate
-```
-Once the virtual environment has been actiated your console cursor might prepend the name of the virtual environment as shown below.
-```sh
-$ (venv) echo 'Hello World!'
-```
-
-## Deactivate virtual environment
-The following command deactivates the current virtual environment, any dependency installed after this command will be installed globally.
-```sh
-$ (venv) deactivate
+$ (venv) python3 Sudoku.py
 ```
 
 ## Tests
@@ -67,10 +44,6 @@ board = [[0, 0, 0, 0, 4, 7, 0, 1, 6],
 2 8 4 | 3 5 6 | 1 7 9
 ```
 
-## Compiling and Executing Program
-```sh
-$ (venv) python3 Sudoku.py
-```
 
 
 
