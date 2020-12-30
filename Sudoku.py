@@ -132,6 +132,8 @@ def solution_board(row, column):
 # Calls the function to solve the Sudoku Board
 solution_board(0, 0)
 # Prints out the board
+print("\n")
+print("Solution to Sample Board:")
 for row in range(0, 9):
     for column in range(0, 9):
         if (column + 1) % 3 == 0:
@@ -143,3 +145,4 @@ for row in range(0, 9):
             print(board[row][column], end=' | ')
         else:
             print(board[row][column], end=' ')
+print("\n")
