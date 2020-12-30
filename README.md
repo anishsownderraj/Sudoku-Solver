@@ -12,7 +12,7 @@ $ git clone https://github.com/anishsownderraj/Sudoku-Solver
 ```
 ## Compiling and Executing Program
 ```sh
-$ (venv) python3 Sudoku.py
+$ python3 Sudoku.py
 ```
 
 ## Tests
